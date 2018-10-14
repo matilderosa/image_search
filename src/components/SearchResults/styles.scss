@@ -1,0 +1,33 @@
+
+.thumbnail {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  max-width: 860px;
+  margin-bottom: 30px;
+}
+
+.text {
+  align-self: center;
+  color: #406FA8;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  letter-spacing: 4px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.loader {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #a8a8a8;
+  text-align: center;
+}

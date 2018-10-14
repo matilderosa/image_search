@@ -1,0 +1,25 @@
+.button {
+  border-width: 1px;
+  padding: 10px 20px;
+
+  &--fill {
+    background-color: #406FA8;
+    color: #fff;
+    border-color: #406FA8;
+    float: right;
+  }
+
+  &--outline {
+    background-color: #fff;
+    color: #406FA8;
+    border-color: #406FA8;
+  }
+}
+
+.button--text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 300;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,28 @@
+.card--background {
+  background: url('../../assets/form-bg.png');
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 906px) {
+    width: 1050px;
+    height: 620px;
+  }
+  @media screen and (max-width: 905px) {
+    width: 100%;
+    min-height: 620px;
+  }
+}
+
+.card--container {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 905px) {
+    padding-bottom: 20px;
+  }
+}
